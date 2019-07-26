@@ -14,8 +14,8 @@ end
 
 my_each(["Bob", "Joe", "Curly", "Esteban", "Raul"]) do |name|
   if name.length > 4
-    puts name
+    name
   else
-    puts "That is a short name!"
+    "That is a short name!"
   end
 end
