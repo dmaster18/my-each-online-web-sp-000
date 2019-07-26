@@ -6,6 +6,7 @@ def my_each(array)
       i+=1
     end
   end
+else
   # put argument(s) here
   # code here
 end
