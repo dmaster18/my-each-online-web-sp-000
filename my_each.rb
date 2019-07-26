@@ -13,3 +13,5 @@ def my_each(array)
 end
 
 my_each(["Bob", "Joe", "Curly", "Esteban", "Raul"]) do |name|
+
+end
