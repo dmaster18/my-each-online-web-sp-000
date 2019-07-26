@@ -13,5 +13,6 @@ def my_each(array)
 end
 
 my_each(["Bob", "Joe", "Curly", "Esteban", "Raul"]) do |name|
-
+  if name.length > 4
+    puts name
 end
