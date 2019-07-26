@@ -12,4 +12,4 @@ def my_each(array)
   # code here
 end
 
-my_each(["Bob", "Joe", "Curly", "Esteban", "Raul"]) do 
+my_each(["Bob", "Joe", "Curly", "Esteban", "Raul"]) do |name|
