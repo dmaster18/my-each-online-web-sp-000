@@ -5,10 +5,9 @@ def my_each(array)
       yield(array[i])
       i+=1
     end
+  else
+    puts "Hey! No block was given!"
   end
-else
-  puts "Hey! No block was given!"
-end
   # put argument(s) here
   # code here
 end
